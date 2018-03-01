@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			#father{
+				width: 900px;
+				margin: auto;				
+			}	
+			#logo{
+				color: beige;
+			}		
+			#logo1{
+				float: left;				
+			}
+			#logo2{
+				float: right;
+				margin-top: 30px;				
+			}
+			#navigation{
+				background-color: beige;
+				height: 50px;
+				padding-top: 10px;
+			}
+			#product_left{
+				width: 25%;
+				height: 100%;
+				float: left;
+			}
+			#product_right{
+				width: 75%;
+				height: 100%;
+				float: left;
+			}
+			.clear{
+				clear: both;
+			}
+			a{
+				text-decoration: none;
+			}
+			a:link{
+				color: black;
+			}
+			a:visited{
+				color: blue;
+			}
+			a:hover{
+				color: red;
+			}
+			a:active{
+				color: green;
+			}
+			ul li{
+				display: inline;
+			}
+			.product{
+				float:left;
+				width: 25%;
+				text-align: center;
+			}
+			.last{
+				text-align: center;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<div id="father">
+			<div>
+				<img id="show" src="img/baidu.png" style="display: none;"/>
+			</div>
+			<div id="logo" >
+				<div id="logo1">
+					<img alt="找不到图片" src="img/mylogo.png" />
+				</div>
+				<div id="logo2">
+					<a href="/day14_shopping/Login.jsp" target="_blank">登录</a>
+					<a href="/day14_shopping/register.html" target="_blank">注册</a>
+					<a href="/day14_shopping/showShoppingCarServlet" target="_blank">购物车</a>
+				</div>
+			</div>
+			<div class="clear"/>
+			<div id="navigation">
+				<ul>
+					<a href="#"><li>首页</li></a>
+					<a href="#"><li>手机</li></a>
+					<a href="/day14_shopping/showProductServlet" target="_blank"><li>家用电器</li></a>
+					<a href="#"><li>鞋帽箱包</li></a>
+				</ul>				
+			</div>
+			<div>
+				<img id="roll" src="img/b1.jpg" alt="找不到此照片" width="100%"/>
+			</div>
+			<div>				
+				<img src="img/tittle1.png" alt="找不到此照片" width="100%"/>								
+			</div>
+			<div>
+				<div id="product_left">
+					<img alt="找不到此照片"  src="img/banner_left.jpg"/>
+				</div>
+				<div id="product_right">
+					<div class="product">
+						<img src="img/small01.jpg" />							
+						<p>咖啡机<br/>￥666</p>
+					</div>
+					<div class="product">
+						<img src="img/small03.jpg" />							
+						<p>电磁炉<br/>￥888</p>
+					</div>
+					<div class="product">
+						<img src="img/small04.jpg" />							
+						<p>电饭锅<br/>￥999</p>
+					</div>
+					<div class="product">
+						<img src="img/small05.jpg" />							
+						<p>饮水机<br/>￥1212</p>
+					</div><br />
+					<div class="product">
+						<img src="img/small06.jpg" />							
+						<p>洗衣机<br/>￥6666</p>
+					</div>
+					<div class="product">
+						<img src="img/small07.jpg" />							
+						<p>电磁炉<br/>￥999</p>
+					</div>
+					<div class="product">
+						<img src="img/small08.jpg" />							
+						<p>电饭锅<br/>￥1818</p>
+					</div>
+					<div class="product">
+						<img src="img/small09.jpg" />							
+						<p>电磁炉<br/>￥8888</p>
+					</div>
+				</div>
+			</div>
+			<div class="clear"/>
+			<div>
+				<img alt="找不到照片" src="img/tittle2.png" width="100%"/>
+			</div>
+			<div>
+				<div id="product_left">
+					<img alt="找不到此照片"  src="img/banner_left2.jpg"/>
+				</div>
+				<div id="product_right">					
+					<div class="product">
+						<img src="img/small08.jpg" />							
+						<p>电饭锅<br/>￥1818</p>
+					</div>
+					<div class="product">
+						<img src="img/small03.jpg" />							
+						<p>电磁炉<br/>￥888</p>
+					</div>
+					<div class="product">
+						<img src="img/small07.jpg" />							
+						<p>电磁炉<br/>￥999</p>
+					</div>
+					<div class="product">
+						<img src="img/small01.jpg" />							
+						<p>咖啡机<br/>￥666</p>
+					</div><br />					
+					<div class="product">
+						<img src="img/small05.jpg" />							
+						<p>饮水机<br/>￥1212</p>
+					</div>
+					<div class="product">
+						<img src="img/small06.jpg" />							
+						<p>洗衣机<br/>￥6666</p>
+					</div>
+					<div class="product">
+						<img src="img/small04.jpg" />							
+						<p>电饭锅<br/>￥999</p>
+					</div>					
+					<div class="product">
+						<img src="img/small08.jpg" />							
+						<p>电饭锅<br/>￥1818</p>
+					</div>					
+			</div>
+			<div>
+				<img alt="找不到照片" src="img/bottom.png" width="100%"/>
+			</div>
+			<div class="last">
+				<a href="#">关于我们</a>
+				<a href="#">联系我们 </a>
+				<a href="#">招贤纳士</a>
+				<a href="#">法律声明</a>
+				<a href="#">友情链接</a>
+				<a href="#">支付方式</a>
+				<a href="#">配送方式</a>
+				<a href="#">广告声明</a>				
+			</div>
+			<div class="last">
+				<p>Copyright o2010-2017 千锋商城 版权所有</p>
+			</div>
+		</div>
+	</body>
+	<script>
+			var i=1;
+			window.onload=function(){
+				setInterval(fn,1000);	
+				var timer=setTimeout(shad,5000);
+			};
+			function fn(){				
+				var roll=document.getElementById("roll");
+				roll.src="img/b"+i+".jpg";
+				i++;
+				if(i==5){
+					i=1;
+				}
+			}
+			var ad=document.getElementById("show");
+			function shad(){				
+				ad.style.display="block";
+				clearTimeout(timer);
+				var timer=setTimeout(hidad,5000);
+			}
+			function hidad(){
+				ad.style.display="none";
+				clearTimeout(timer);
+			}
+	</script>
+</html>

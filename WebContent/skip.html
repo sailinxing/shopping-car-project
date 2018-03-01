@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div width=100% align="center">
+			恭喜你注册成功！<span id="sp1" style="color: red;">5</span>
+			<input type="button" value="立即返回" onclick="clearTimer()"/>
+		</div>		
+	</body>
+	<script>
+		window.onload=function(){
+			timer=setInterval(clock,1000);
+		}
+			var time=5;
+		function clock(){			
+			var sp1=document.getElementById("sp1");
+			if(time>=0){
+				sp1.innerHTML=time;
+				time--;
+			}
+			else{
+				location.href="index.html";
+				clearTimer();
+			}
+		}
+		function clearTimer(){
+			clearInterval(timer);
+			location.href="index.html";
+		}
+		
+	</script>
+</html>
